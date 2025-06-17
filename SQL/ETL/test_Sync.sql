@@ -1,0 +1,1 @@
+EXEC IDBHotel.dbo.sp_Sync_Hotel_Data;

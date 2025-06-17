@@ -1,0 +1,278 @@
+hotel_id,cityId,hotelName,cityName,region
+AGG001,AGG,An Giang Hotel 1,An Giang,Đồng bằng sông Cửu Long
+AGG002,AGG,An Giang Hotel 2,An Giang,Đồng bằng sông Cửu Long
+AGG003,AGG,An Giang Hotel 3,An Giang,Đồng bằng sông Cửu Long
+AGG004,AGG,An Giang Hotel 4,An Giang,Đồng bằng sông Cửu Long
+AGG005,AGG,An Giang Hotel 5,An Giang,Đồng bằng sông Cửu Long
+AGG006,AGG,An Giang Hotel 6,An Giang,Đồng bằng sông Cửu Long
+BRV001,BRV,Bà Rịa - Vũng Tàu Hotel 1,Bà Rịa - Vũng Tàu,Đông Nam Bộ
+BRV002,BRV,Bà Rịa - Vũng Tàu Hotel 2,Bà Rịa - Vũng Tàu,Đông Nam Bộ
+BRV003,BRV,Bà Rịa - Vũng Tàu Hotel 3,Bà Rịa - Vũng Tàu,Đông Nam Bộ
+BRV004,BRV,Bà Rịa - Vũng Tàu Hotel 4,Bà Rịa - Vũng Tàu,Đông Nam Bộ
+BGG001,BGG,Bắc Giang Hotel 1,Bắc Giang,Đồng bằng sông Hồng
+BGG002,BGG,Bắc Giang Hotel 2,Bắc Giang,Đồng bằng sông Hồng
+BGG003,BGG,Bắc Giang Hotel 3,Bắc Giang,Đồng bằng sông Hồng
+BGG004,BGG,Bắc Giang Hotel 4,Bắc Giang,Đồng bằng sông Hồng
+BGG005,BGG,Bắc Giang Hotel 5,Bắc Giang,Đồng bằng sông Hồng
+BGG006,BGG,Bắc Giang Hotel 6,Bắc Giang,Đồng bằng sông Hồng
+BKN001,BKN,Bắc Kạn Hotel 1,Bắc Kạn,Trung du và miền núi phía Bắc
+BLU001,BLU,Bạc Liêu Hotel 1,Bạc Liêu,Đồng bằng sông Cửu Long
+BLU002,BLU,Bạc Liêu Hotel 2,Bạc Liêu,Đồng bằng sông Cửu Long
+BLU003,BLU,Bạc Liêu Hotel 3,Bạc Liêu,Đồng bằng sông Cửu Long
+BNH001,BNH,Bắc Ninh Hotel 1,Bắc Ninh,Đồng bằng sông Hồng
+BNH002,BNH,Bắc Ninh Hotel 2,Bắc Ninh,Đồng bằng sông Hồng
+BNH003,BNH,Bắc Ninh Hotel 3,Bắc Ninh,Đồng bằng sông Hồng
+BNH004,BNH,Bắc Ninh Hotel 4,Bắc Ninh,Đồng bằng sông Hồng
+BNH005,BNH,Bắc Ninh Hotel 5,Bắc Ninh,Đồng bằng sông Hồng
+BTE001,BTE,Bến Tre Hotel 1,Bến Tre,Đồng bằng sông Cửu Long
+BTE002,BTE,Bến Tre Hotel 2,Bến Tre,Đồng bằng sông Cửu Long
+BTE003,BTE,Bến Tre Hotel 3,Bến Tre,Đồng bằng sông Cửu Long
+BTE004,BTE,Bến Tre Hotel 4,Bến Tre,Đồng bằng sông Cửu Long
+BDH001,BDH,Bình Định Hotel 1,Bình Định,Duyên hải Nam Trung Bộ
+BDH002,BDH,Bình Định Hotel 2,Bình Định,Duyên hải Nam Trung Bộ
+BDH003,BDH,Bình Định Hotel 3,Bình Định,Duyên hải Nam Trung Bộ
+BDH004,BDH,Bình Định Hotel 4,Bình Định,Duyên hải Nam Trung Bộ
+BDH005,BDH,Bình Định Hotel 5,Bình Định,Duyên hải Nam Trung Bộ
+BDG001,BDG,Bình Dương Hotel 1,Bình Dương,Đông Nam Bộ
+BDG002,BDG,Bình Dương Hotel 2,Bình Dương,Đông Nam Bộ
+BDG003,BDG,Bình Dương Hotel 3,Bình Dương,Đông Nam Bộ
+BDG004,BDG,Bình Dương Hotel 4,Bình Dương,Đông Nam Bộ
+BDG005,BDG,Bình Dương Hotel 5,Bình Dương,Đông Nam Bộ
+BDG006,BDG,Bình Dương Hotel 6,Bình Dương,Đông Nam Bộ
+BDG007,BDG,Bình Dương Hotel 7,Bình Dương,Đông Nam Bộ
+BDG008,BDG,Bình Dương Hotel 8,Bình Dương,Đông Nam Bộ
+BDG009,BDG,Bình Dương Hotel 9,Bình Dương,Đông Nam Bộ
+BPC001,BPC,Bình Phước Hotel 1,Bình Phước,Đông Nam Bộ
+BPC002,BPC,Bình Phước Hotel 2,Bình Phước,Đông Nam Bộ
+BPC003,BPC,Bình Phước Hotel 3,Bình Phước,Đông Nam Bộ
+BTN001,BTN,Bình Thuận Hotel 1,Bình Thuận,Duyên hải Nam Trung Bộ
+BTN002,BTN,Bình Thuận Hotel 2,Bình Thuận,Duyên hải Nam Trung Bộ
+BTN003,BTN,Bình Thuận Hotel 3,Bình Thuận,Duyên hải Nam Trung Bộ
+BTN004,BTN,Bình Thuận Hotel 4,Bình Thuận,Duyên hải Nam Trung Bộ
+CMU001,CMU,Cà Mau Hotel 1,Cà Mau,Đồng bằng sông Cửu Long
+CMU002,CMU,Cà Mau Hotel 2,Cà Mau,Đồng bằng sông Cửu Long
+CMU003,CMU,Cà Mau Hotel 3,Cà Mau,Đồng bằng sông Cửu Long
+CMU004,CMU,Cà Mau Hotel 4,Cà Mau,Đồng bằng sông Cửu Long
+CTO001,CTO,Cần Thơ Hotel 1,Cần Thơ,Đồng bằng sông Cửu Long
+CTO002,CTO,Cần Thơ Hotel 2,Cần Thơ,Đồng bằng sông Cửu Long
+CTO003,CTO,Cần Thơ Hotel 3,Cần Thơ,Đồng bằng sông Cửu Long
+CTO004,CTO,Cần Thơ Hotel 4,Cần Thơ,Đồng bằng sông Cửu Long
+CBG001,CBG,Cao Bằng Hotel 1,Cao Bằng,Trung du và miền núi phía Bắc
+CBG002,CBG,Cao Bằng Hotel 2,Cao Bằng,Trung du và miền núi phía Bắc
+DNG001,DNG,Đà Nẵng Hotel 1,Đà Nẵng,Duyên hải Nam Trung Bộ
+DNG002,DNG,Đà Nẵng Hotel 2,Đà Nẵng,Duyên hải Nam Trung Bộ
+DNG003,DNG,Đà Nẵng Hotel 3,Đà Nẵng,Duyên hải Nam Trung Bộ
+DNG004,DNG,Đà Nẵng Hotel 4,Đà Nẵng,Duyên hải Nam Trung Bộ
+DLK001,DLK,Đắk Lắk Hotel 1,Đắk Lắk,Tây Nguyên
+DLK002,DLK,Đắk Lắk Hotel 2,Đắk Lắk,Tây Nguyên
+DLK003,DLK,Đắk Lắk Hotel 3,Đắk Lắk,Tây Nguyên
+DLK004,DLK,Đắk Lắk Hotel 4,Đắk Lắk,Tây Nguyên
+DLK005,DLK,Đắk Lắk Hotel 5,Đắk Lắk,Tây Nguyên
+DLK006,DLK,Đắk Lắk Hotel 6,Đắk Lắk,Tây Nguyên
+DNO001,DNO,Đắk Nông Hotel 1,Đắk Nông,Tây Nguyên
+DNO002,DNO,Đắk Nông Hotel 2,Đắk Nông,Tây Nguyên
+DBI001,DBI,Điện Biên Hotel 1,Điện Biên,Trung du và miền núi phía Bắc
+DBI002,DBI,Điện Biên Hotel 2,Điện Biên,Trung du và miền núi phía Bắc
+DNA001,DNA,Đồng Nai Hotel 1,Đồng Nai,Đông Nam Bộ
+DNA002,DNA,Đồng Nai Hotel 2,Đồng Nai,Đông Nam Bộ
+DNA003,DNA,Đồng Nai Hotel 3,Đồng Nai,Đông Nam Bộ
+DNA004,DNA,Đồng Nai Hotel 4,Đồng Nai,Đông Nam Bộ
+DNA005,DNA,Đồng Nai Hotel 5,Đồng Nai,Đông Nam Bộ
+DNA006,DNA,Đồng Nai Hotel 6,Đồng Nai,Đông Nam Bộ
+DNA007,DNA,Đồng Nai Hotel 7,Đồng Nai,Đông Nam Bộ
+DNA008,DNA,Đồng Nai Hotel 8,Đồng Nai,Đông Nam Bộ
+DNA009,DNA,Đồng Nai Hotel 9,Đồng Nai,Đông Nam Bộ
+DNA010,DNA,Đồng Nai Hotel 10,Đồng Nai,Đông Nam Bộ
+DTP001,DTP,Đồng Tháp Hotel 1,Đồng Tháp,Đồng bằng sông Cửu Long
+DTP002,DTP,Đồng Tháp Hotel 2,Đồng Tháp,Đồng bằng sông Cửu Long
+DTP003,DTP,Đồng Tháp Hotel 3,Đồng Tháp,Đồng bằng sông Cửu Long
+DTP004,DTP,Đồng Tháp Hotel 4,Đồng Tháp,Đồng bằng sông Cửu Long
+DTP005,DTP,Đồng Tháp Hotel 5,Đồng Tháp,Đồng bằng sông Cửu Long
+DTP006,DTP,Đồng Tháp Hotel 6,Đồng Tháp,Đồng bằng sông Cửu Long
+GLI001,GLI,Gia Lai Hotel 1,Gia Lai,Tây Nguyên
+GLI002,GLI,Gia Lai Hotel 2,Gia Lai,Tây Nguyên
+GLI003,GLI,Gia Lai Hotel 3,Gia Lai,Tây Nguyên
+GLI004,GLI,Gia Lai Hotel 4,Gia Lai,Tây Nguyên
+GLI005,GLI,Gia Lai Hotel 5,Gia Lai,Tây Nguyên
+HGG001,HGG,Hà Giang Hotel 1,Hà Giang,Trung du và miền núi phía Bắc
+HGG002,HGG,Hà Giang Hotel 2,Hà Giang,Trung du và miền núi phía Bắc
+HGG003,HGG,Hà Giang Hotel 3,Hà Giang,Trung du và miền núi phía Bắc
+HNA001,HNA,Hà Nam Hotel 1,Hà Nam,Đồng bằng sông Hồng
+HNA002,HNA,Hà Nam Hotel 2,Hà Nam,Đồng bằng sông Hồng
+HNA003,HNA,Hà Nam Hotel 3,Hà Nam,Đồng bằng sông Hồng
+HNO001,HNO,Hà Nội Hotel 1,Hà Nội,Đồng bằng sông Hồng
+HNO002,HNO,Hà Nội Hotel 2,Hà Nội,Đồng bằng sông Hồng
+HNO003,HNO,Hà Nội Hotel 3,Hà Nội,Đồng bằng sông Hồng
+HNO004,HNO,Hà Nội Hotel 4,Hà Nội,Đồng bằng sông Hồng
+HNO005,HNO,Hà Nội Hotel 5,Hà Nội,Đồng bằng sông Hồng
+HNO006,HNO,Hà Nội Hotel 6,Hà Nội,Đồng bằng sông Hồng
+HNO007,HNO,Hà Nội Hotel 7,Hà Nội,Đồng bằng sông Hồng
+HNO008,HNO,Hà Nội Hotel 8,Hà Nội,Đồng bằng sông Hồng
+HNO009,HNO,Hà Nội Hotel 9,Hà Nội,Đồng bằng sông Hồng
+HNO010,HNO,Hà Nội Hotel 10,Hà Nội,Đồng bằng sông Hồng
+HNO011,HNO,Hà Nội Hotel 11,Hà Nội,Đồng bằng sông Hồng
+HNO012,HNO,Hà Nội Hotel 12,Hà Nội,Đồng bằng sông Hồng
+HNO013,HNO,Hà Nội Hotel 13,Hà Nội,Đồng bằng sông Hồng
+HNO014,HNO,Hà Nội Hotel 14,Hà Nội,Đồng bằng sông Hồng
+HNO015,HNO,Hà Nội Hotel 15,Hà Nội,Đồng bằng sông Hồng
+HNO016,HNO,Hà Nội Hotel 16,Hà Nội,Đồng bằng sông Hồng
+HNO017,HNO,Hà Nội Hotel 17,Hà Nội,Đồng bằng sông Hồng
+HNO018,HNO,Hà Nội Hotel 18,Hà Nội,Đồng bằng sông Hồng
+HNO019,HNO,Hà Nội Hotel 19,Hà Nội,Đồng bằng sông Hồng
+HNO020,HNO,Hà Nội Hotel 20,Hà Nội,Đồng bằng sông Hồng
+HNO021,HNO,Hà Nội Hotel 21,Hà Nội,Đồng bằng sông Hồng
+HNO022,HNO,Hà Nội Hotel 22,Hà Nội,Đồng bằng sông Hồng
+HNO023,HNO,Hà Nội Hotel 23,Hà Nội,Đồng bằng sông Hồng
+HNO024,HNO,Hà Nội Hotel 24,Hà Nội,Đồng bằng sông Hồng
+HNO025,HNO,Hà Nội Hotel 25,Hà Nội,Đồng bằng sông Hồng
+HNO026,HNO,Hà Nội Hotel 26,Hà Nội,Đồng bằng sông Hồng
+HNO027,HNO,Hà Nội Hotel 27,Hà Nội,Đồng bằng sông Hồng
+HTH001,HTH,Hà Tĩnh Hotel 1,Hà Tĩnh,Bắc Trung Bộ
+HTH002,HTH,Hà Tĩnh Hotel 2,Hà Tĩnh,Bắc Trung Bộ
+HTH003,HTH,Hà Tĩnh Hotel 3,Hà Tĩnh,Bắc Trung Bộ
+HTH004,HTH,Hà Tĩnh Hotel 4,Hà Tĩnh,Bắc Trung Bộ
+HDG001,HDG,Hải Dương Hotel 1,Hải Dương,Đồng bằng sông Hồng
+HDG002,HDG,Hải Dương Hotel 2,Hải Dương,Đồng bằng sông Hồng
+HDG003,HDG,Hải Dương Hotel 3,Hải Dương,Đồng bằng sông Hồng
+HDG004,HDG,Hải Dương Hotel 4,Hải Dương,Đồng bằng sông Hồng
+HDG005,HDG,Hải Dương Hotel 5,Hải Dương,Đồng bằng sông Hồng
+HDG006,HDG,Hải Dương Hotel 6,Hải Dương,Đồng bằng sông Hồng
+HPG001,HPG,Hải Phòng Hotel 1,Hải Phòng,Đồng bằng sông Hồng
+HPG002,HPG,Hải Phòng Hotel 2,Hải Phòng,Đồng bằng sông Hồng
+HPG003,HPG,Hải Phòng Hotel 3,Hải Phòng,Đồng bằng sông Hồng
+HPG004,HPG,Hải Phòng Hotel 4,Hải Phòng,Đồng bằng sông Hồng
+HPG005,HPG,Hải Phòng Hotel 5,Hải Phòng,Đồng bằng sông Hồng
+HPG006,HPG,Hải Phòng Hotel 6,Hải Phòng,Đồng bằng sông Hồng
+HPG007,HPG,Hải Phòng Hotel 7,Hải Phòng,Đồng bằng sông Hồng
+HUG001,HUG,Hậu Giang Hotel 1,Hậu Giang,Đồng bằng sông Cửu Long
+HUG002,HUG,Hậu Giang Hotel 2,Hậu Giang,Đồng bằng sông Cửu Long
+HUG003,HUG,Hậu Giang Hotel 3,Hậu Giang,Đồng bằng sông Cửu Long
+HBI001,HBI,Hòa Bình Hotel 1,Hòa Bình,Trung du và miền núi phía Bắc
+HBI002,HBI,Hòa Bình Hotel 2,Hòa Bình,Trung du và miền núi phía Bắc
+HBI003,HBI,Hòa Bình Hotel 3,Hòa Bình,Trung du và miền núi phía Bắc
+HYN001,HYN,Hưng Yên Hotel 1,Hưng Yên,Đồng bằng sông Hồng
+HYN002,HYN,Hưng Yên Hotel 2,Hưng Yên,Đồng bằng sông Hồng
+HYN003,HYN,Hưng Yên Hotel 3,Hưng Yên,Đồng bằng sông Hồng
+HYN004,HYN,Hưng Yên Hotel 4,Hưng Yên,Đồng bằng sông Hồng
+KHA001,KHA,Khánh Hòa Hotel 1,Khánh Hòa,Duyên hải Nam Trung Bộ
+KHA002,KHA,Khánh Hòa Hotel 2,Khánh Hòa,Duyên hải Nam Trung Bộ
+KHA003,KHA,Khánh Hòa Hotel 3,Khánh Hòa,Duyên hải Nam Trung Bộ
+KHA004,KHA,Khánh Hòa Hotel 4,Khánh Hòa,Duyên hải Nam Trung Bộ
+KGI001,KGI,Kiên Giang Hotel 1,Kiên Giang,Đồng bằng sông Cửu Long
+KGI002,KGI,Kiên Giang Hotel 2,Kiên Giang,Đồng bằng sông Cửu Long
+KGI003,KGI,Kiên Giang Hotel 3,Kiên Giang,Đồng bằng sông Cửu Long
+KGI004,KGI,Kiên Giang Hotel 4,Kiên Giang,Đồng bằng sông Cửu Long
+KGI005,KGI,Kiên Giang Hotel 5,Kiên Giang,Đồng bằng sông Cửu Long
+KGI006,KGI,Kiên Giang Hotel 6,Kiên Giang,Đồng bằng sông Cửu Long
+KTM001,KTM,Kon Tum Hotel 1,Kon Tum,Tây Nguyên
+KTM002,KTM,Kon Tum Hotel 2,Kon Tum,Tây Nguyên
+LCI001,LCI,Lai Châu Hotel 1,Lai Châu,Trung du và miền núi phía Bắc
+LCI002,LCI,Lai Châu Hotel 2,Lai Châu,Trung du và miền núi phía Bắc
+LCH001,LCH,Lạng Sơn Hotel 1,Lạng Sơn,Trung du và miền núi phía Bắc
+LCH002,LCH,Lạng Sơn Hotel 2,Lạng Sơn,Trung du và miền núi phía Bắc
+LCH003,LCH,Lạng Sơn Hotel 3,Lạng Sơn,Trung du và miền núi phía Bắc
+LDO001,LDO,Lâm Đồng Hotel 1,Lâm Đồng,Tây Nguyên
+LDO002,LDO,Lâm Đồng Hotel 2,Lâm Đồng,Tây Nguyên
+LDO003,LDO,Lâm Đồng Hotel 3,Lâm Đồng,Tây Nguyên
+LDO004,LDO,Lâm Đồng Hotel 4,Lâm Đồng,Tây Nguyên
+LDO005,LDO,Lâm Đồng Hotel 5,Lâm Đồng,Tây Nguyên
+LCA001,LCA,Lào Cai Hotel 1,Lào Cai,Trung du và miền núi phía Bắc
+LCA002,LCA,Lào Cai Hotel 2,Lào Cai,Trung du và miền núi phía Bắc
+LAG001,LAG,Long An Hotel 1,Long An,Đồng bằng sông Cửu Long
+LAG002,LAG,Long An Hotel 2,Long An,Đồng bằng sông Cửu Long
+LAG003,LAG,Long An Hotel 3,Long An,Đồng bằng sông Cửu Long
+LAG004,LAG,Long An Hotel 4,Long An,Đồng bằng sông Cửu Long
+LAG005,LAG,Long An Hotel 5,Long An,Đồng bằng sông Cửu Long
+LAG006,LAG,Long An Hotel 6,Long An,Đồng bằng sông Cửu Long
+NDH001,NDH,Nam Định Hotel 1,Nam Định,Đồng bằng sông Hồng
+NDH002,NDH,Nam Định Hotel 2,Nam Định,Đồng bằng sông Hồng
+NDH003,NDH,Nam Định Hotel 3,Nam Định,Đồng bằng sông Hồng
+NDH004,NDH,Nam Định Hotel 4,Nam Định,Đồng bằng sông Hồng
+NDH005,NDH,Nam Định Hotel 5,Nam Định,Đồng bằng sông Hồng
+NDH006,NDH,Nam Định Hotel 6,Nam Định,Đồng bằng sông Hồng
+NBH001,NBH,Ninh Bình Hotel 1,Ninh Bình,Đồng bằng sông Hồng
+NBH002,NBH,Ninh Bình Hotel 2,Ninh Bình,Đồng bằng sông Hồng
+NBH003,NBH,Ninh Bình Hotel 3,Ninh Bình,Đồng bằng sông Hồng
+NTN001,NTN,Ninh Thuận Hotel 1,Ninh Thuận,Duyên hải Nam Trung Bộ
+NTN002,NTN,Ninh Thuận Hotel 2,Ninh Thuận,Duyên hải Nam Trung Bộ
+PTU001,PTU,Phú Thọ Hotel 1,Phú Thọ,Trung du và miền núi phía Bắc
+PTU002,PTU,Phú Thọ Hotel 2,Phú Thọ,Trung du và miền núi phía Bắc
+PTU003,PTU,Phú Thọ Hotel 3,Phú Thọ,Trung du và miền núi phía Bắc
+PTU004,PTU,Phú Thọ Hotel 4,Phú Thọ,Trung du và miền núi phía Bắc
+PTU005,PTU,Phú Thọ Hotel 5,Phú Thọ,Trung du và miền núi phía Bắc
+PYN001,PYN,Phú Yên Hotel 1,Phú Yên,Duyên hải Nam Trung Bộ
+PYN002,PYN,Phú Yên Hotel 2,Phú Yên,Duyên hải Nam Trung Bộ
+PYN003,PYN,Phú Yên Hotel 3,Phú Yên,Duyên hải Nam Trung Bộ
+QBI001,QBI,Quảng Bình Hotel 1,Quảng Bình,Bắc Trung Bộ
+QBI002,QBI,Quảng Bình Hotel 2,Quảng Bình,Bắc Trung Bộ
+QBI003,QBI,Quảng Bình Hotel 3,Quảng Bình,Bắc Trung Bộ
+QNA001,QNA,Quảng Nam Hotel 1,Quảng Nam,Duyên hải Nam Trung Bộ
+QNA002,QNA,Quảng Nam Hotel 2,Quảng Nam,Duyên hải Nam Trung Bộ
+QNA003,QNA,Quảng Nam Hotel 3,Quảng Nam,Duyên hải Nam Trung Bộ
+QNA004,QNA,Quảng Nam Hotel 4,Quảng Nam,Duyên hải Nam Trung Bộ
+QNA005,QNA,Quảng Nam Hotel 5,Quảng Nam,Duyên hải Nam Trung Bộ
+QNG001,QNG,Quảng Ngãi Hotel 1,Quảng Ngãi,Duyên hải Nam Trung Bộ
+QNG002,QNG,Quảng Ngãi Hotel 2,Quảng Ngãi,Duyên hải Nam Trung Bộ
+QNG003,QNG,Quảng Ngãi Hotel 3,Quảng Ngãi,Duyên hải Nam Trung Bộ
+QNG004,QNG,Quảng Ngãi Hotel 4,Quảng Ngãi,Duyên hải Nam Trung Bộ
+QNI001,QNI,Quảng Ninh Hotel 1,Quảng Ninh,Đồng bằng sông Hồng
+QNI002,QNI,Quảng Ninh Hotel 2,Quảng Ninh,Đồng bằng sông Hồng
+QNI003,QNI,Quảng Ninh Hotel 3,Quảng Ninh,Đồng bằng sông Hồng
+QNI004,QNI,Quảng Ninh Hotel 4,Quảng Ninh,Đồng bằng sông Hồng
+QTR001,QTR,Quảng Trị Hotel 1,Quảng Trị,Bắc Trung Bộ
+QTR002,QTR,Quảng Trị Hotel 2,Quảng Trị,Bắc Trung Bộ
+STG001,STG,Sóc Trăng Hotel 1,Sóc Trăng,Đồng bằng sông Cửu Long
+STG002,STG,Sóc Trăng Hotel 2,Sóc Trăng,Đồng bằng sông Cửu Long
+STG003,STG,Sóc Trăng Hotel 3,Sóc Trăng,Đồng bằng sông Cửu Long
+STG004,STG,Sóc Trăng Hotel 4,Sóc Trăng,Đồng bằng sông Cửu Long
+SLA001,SLA,Sơn La Hotel 1,Sơn La,Trung du và miền núi phía Bắc
+SLA002,SLA,Sơn La Hotel 2,Sơn La,Trung du và miền núi phía Bắc
+SLA003,SLA,Sơn La Hotel 3,Sơn La,Trung du và miền núi phía Bắc
+SLA004,SLA,Sơn La Hotel 4,Sơn La,Trung du và miền núi phía Bắc
+TBG001,TBG,Tuyên Quang Hotel 1,Tuyên Quang,Trung du và miền núi phía Bắc
+TBG002,TBG,Tuyên Quang Hotel 2,Tuyên Quang,Trung du và miền núi phía Bắc
+TBG003,TBG,Tuyên Quang Hotel 3,Tuyên Quang,Trung du và miền núi phía Bắc
+TNI001,TNI,Tây Ninh Hotel 1,Tây Ninh,Đông Nam Bộ
+TNI002,TNI,Tây Ninh Hotel 2,Tây Ninh,Đông Nam Bộ
+TNI003,TNI,Tây Ninh Hotel 3,Tây Ninh,Đông Nam Bộ
+TNI004,TNI,Tây Ninh Hotel 4,Tây Ninh,Đông Nam Bộ
+TNH001,TNH,Thái Nguyên Hotel 1,Thái Nguyên,Trung du và miền núi phía Bắc
+TNH002,TNH,Thái Nguyên Hotel 2,Thái Nguyên,Trung du và miền núi phía Bắc
+TNH003,TNH,Thái Nguyên Hotel 3,Thái Nguyên,Trung du và miền núi phía Bắc
+TNH004,TNH,Thái Nguyên Hotel 4,Thái Nguyên,Trung du và miền núi phía Bắc
+TBI001,TBI,Thái Bình Hotel 1,Thái Bình,Đồng bằng sông Hồng
+TBI002,TBI,Thái Bình Hotel 2,Thái Bình,Đồng bằng sông Hồng
+TBI003,TBI,Thái Bình Hotel 3,Thái Bình,Đồng bằng sông Hồng
+TBI004,TBI,Thái Bình Hotel 4,Thái Bình,Đồng bằng sông Hồng
+TBI005,TBI,Thái Bình Hotel 5,Thái Bình,Đồng bằng sông Hồng
+TBI006,TBI,Thái Bình Hotel 6,Thái Bình,Đồng bằng sông Hồng
+THA001,THA,Thanh Hóa Hotel 1,Thanh Hóa,Bắc Trung Bộ
+THA002,THA,Thanh Hóa Hotel 2,Thanh Hóa,Bắc Trung Bộ
+THA003,THA,Thanh Hóa Hotel 3,Thanh Hóa,Bắc Trung Bộ
+THA004,THA,Thanh Hóa Hotel 4,Thanh Hóa,Bắc Trung Bộ
+THA005,THA,Thanh Hóa Hotel 5,Thanh Hóa,Bắc Trung Bộ
+THA006,THA,Thanh Hóa Hotel 6,Thanh Hóa,Bắc Trung Bộ
+THA007,THA,Thanh Hóa Hotel 7,Thanh Hóa,Bắc Trung Bộ
+THA008,THA,Thanh Hóa Hotel 8,Thanh Hóa,Bắc Trung Bộ
+THA009,THA,Thanh Hóa Hotel 9,Thanh Hóa,Bắc Trung Bộ
+THA010,THA,Thanh Hóa Hotel 10,Thanh Hóa,Bắc Trung Bộ
+THA011,THA,Thanh Hóa Hotel 11,Thanh Hóa,Bắc Trung Bộ
+THA012,THA,Thanh Hóa Hotel 12,Thanh Hóa,Bắc Trung Bộ
+TTH001,TTH,Thừa Thiên Huế Hotel 1,Thừa Thiên Huế,Bắc Trung Bộ
+TTH002,TTH,Thừa Thiên Huế Hotel 2,Thừa Thiên Huế,Bắc Trung Bộ
+TTH003,TTH,Thừa Thiên Huế Hotel 3,Thừa Thiên Huế,Bắc Trung Bộ
+TTH004,TTH,Thừa Thiên Huế Hotel 4,Thừa Thiên Huế,Bắc Trung Bộ
+TVH001,TVH,Trà Vinh Hotel 1,Trà Vinh,Đồng bằng sông Cửu Long
+TVH002,TVH,Trà Vinh Hotel 2,Trà Vinh,Đồng bằng sông Cửu Long
+TVH003,TVH,Trà Vinh Hotel 3,Trà Vinh,Đồng bằng sông Cửu Long
+VLO001,VLO,Vĩnh Long Hotel 1,Vĩnh Long,Đồng bằng sông Cửu Long
+VLO002,VLO,Vĩnh Long Hotel 2,Vĩnh Long,Đồng bằng sông Cửu Long
+VLO003,VLO,Vĩnh Long Hotel 3,Vĩnh Long,Đồng bằng sông Cửu Long
+VLO004,VLO,Vĩnh Long Hotel 4,Vĩnh Long,Đồng bằng sông Cửu Long
+VPC001,VPC,Vĩnh Phúc Hotel 1,Vĩnh Phúc,Đồng bằng sông Hồng
+VPC002,VPC,Vĩnh Phúc Hotel 2,Vĩnh Phúc,Đồng bằng sông Hồng
+VPC003,VPC,Vĩnh Phúc Hotel 3,Vĩnh Phúc,Đồng bằng sông Hồng
+VPC004,VPC,Vĩnh Phúc Hotel 4,Vĩnh Phúc,Đồng bằng sông Hồng
+YBI001,YBI,Yên Bái Hotel 1,Yên Bái,Trung du và miền núi phía Bắc
+YBI002,YBI,Yên Bái Hotel 2,Yên Bái,Trung du và miền núi phía Bắc
+YBI003,YBI,Yên Bái Hotel 3,Yên Bái,Trung du và miền núi phía Bắc

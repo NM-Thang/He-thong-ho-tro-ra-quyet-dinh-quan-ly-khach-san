@@ -1,0 +1,61 @@
+cityId,cityName,population,region
+AGG,An Giang,1900000,Đồng bằng sông Cửu Long
+BRV,Bà Rịa - Vũng Tàu,1150000,Đông Nam Bộ
+BGG,Bắc Giang,1800000,Đồng bằng sông Hồng
+BKN,Bắc Kạn,330000,Trung du và miền núi phía Bắc
+BLU,Bạc Liêu,900000,Đồng bằng sông Cửu Long
+BNH,Bắc Ninh,1400000,Đồng bằng sông Hồng
+BTE,Bến Tre,1300000,Đồng bằng sông Cửu Long
+BDH,Bình Định,1550000,Duyên hải Nam Trung Bộ
+BDG,Bình Dương,2600000,Đông Nam Bộ
+BPC,Bình Phước,1000000,Đông Nam Bộ
+BTN,Bình Thuận,1200000,Duyên hải Nam Trung Bộ
+CMU,Cà Mau,1200000,Đồng bằng sông Cửu Long
+CTO,Cần Thơ,1250000,Đồng bằng sông Cửu Long
+CBG,Cao Bằng,530000,Trung du và miền núi phía Bắc
+DNG,Đà Nẵng,1130000,Duyên hải Nam Trung Bộ
+DLK,Đắk Lắk,1900000,Tây Nguyên
+DNO,Đắk Nông,700000,Tây Nguyên
+DBI,Điện Biên,650000,Trung du và miền núi phía Bắc
+DNA,Đồng Nai,3100000,Đông Nam Bộ
+DTP,Đồng Tháp,1700000,Đồng bằng sông Cửu Long
+GLI,Gia Lai,1500000,Tây Nguyên
+HGG,Hà Giang,870000,Trung du và miền núi phía Bắc
+HNA,Hà Nam,880000,Đồng bằng sông Hồng
+HNO,Hà Nội,8000000,Đồng bằng sông Hồng
+HTH,Hà Tĩnh,1300000,Bắc Trung Bộ
+HDG,Hải Dương,1900000,Đồng bằng sông Hồng
+HPG,Hải Phòng,2000000,Đồng bằng sông Hồng
+HUG,Hậu Giang,770000,Đồng bằng sông Cửu Long
+HBI,Hòa Bình,870000,Trung du và miền núi phía Bắc
+HYN,Hưng Yên,1250000,Đồng bằng sông Hồng
+KHA,Khánh Hòa,1230000,Duyên hải Nam Trung Bộ
+KGI,Kiên Giang,1900000,Đồng bằng sông Cửu Long
+KTM,Kon Tum,540000,Tây Nguyên
+LCI,Lai Châu,460000,Trung du và miền núi phía Bắc
+LCH,Lạng Sơn,780000,Trung du và miền núi phía Bắc
+LDO,Lâm Đồng,1400000,Tây Nguyên
+LCA,Lào Cai,750000,Trung du và miền núi phía Bắc
+LAG,Long An,1700000,Đồng bằng sông Cửu Long
+NDH,Nam Định,1800000,Đồng bằng sông Hồng
+NBH,Ninh Bình,980000,Đồng bằng sông Hồng
+NTN,Ninh Thuận,600000,Duyên hải Nam Trung Bộ
+PTU,Phú Thọ,1500000,Trung du và miền núi phía Bắc
+PYN,Phú Yên,900000,Duyên hải Nam Trung Bộ
+QBI,Quảng Bình,900000,Bắc Trung Bộ
+QNA,Quảng Nam,1500000,Duyên hải Nam Trung Bộ
+QNG,Quảng Ngãi,1200000,Duyên hải Nam Trung Bộ
+QNI,Quảng Ninh,1300000,Đồng bằng sông Hồng
+QTR,Quảng Trị,650000,Bắc Trung Bộ
+STG,Sóc Trăng,1200000,Đồng bằng sông Cửu Long
+SLA,Sơn La,1250000,Trung du và miền núi phía Bắc
+TBG,Tuyên Quang,800000,Trung du và miền núi phía Bắc
+TNI,Tây Ninh,1200000,Đông Nam Bộ
+TNH,Thái Nguyên,1300000,Trung du và miền núi phía Bắc
+TBI,Thái Bình,1800000,Đồng bằng sông Hồng
+THA,Thanh Hóa,3500000,Bắc Trung Bộ
+TTH,Thừa Thiên Huế,1150000,Bắc Trung Bộ
+TVH,Trà Vinh,1000000,Đồng bằng sông Cửu Long
+VLO,Vĩnh Long,1050000,Đồng bằng sông Cửu Long
+VPC,Vĩnh Phúc,1200000,Đồng bằng sông Hồng
+YBI,Yên Bái,820000,Trung du và miền núi phía Bắc

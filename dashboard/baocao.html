@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trình tạo mẫu báo cáo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      padding: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0 20px;
+    }
+    .report-box {
+      border: 1px solid #ccc;
+      padding: 20px;
+      background: white;
+      margin-top: 30px;
+    }
+    .image-container img {
+      max-width: 300px;
+      display: block;
+      margin-top: 10px;
+    }
+    .image-item {
+      position: relative;
+      margin-bottom: 15px;
+    }
+    .image-item button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      width: 24px;
+      height: 24px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #0078d4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    h2 {
+      color: #0078d4;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+    }
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+      #reportContent, #reportContent * {
+        visibility: visible;
+      }
+      #reportContent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+    }
+    .editable {
+      border: 1px dashed #ccc;
+      padding: 6px;
+      min-height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tạo mẫu báo cáo</h1>
+
+  <label>Chọn mẫu báo cáo:</label>
+  <select id="reportType" onchange="updateTemplate()">
+    <option value="doanhthu">1. Báo cáo doanh thu</option>
+    <option value="phong">2. Báo cáo phòng ban</option>
+    <option value="dubao">3. Dự báo doanh thu</option>
+    <option value="khachhang">4. Báo cáo khách hàng</option>
+  </select>
+
+  <label>Họ tên người lập:</label>
+  <input type="text" id="authorName" placeholder="Nhập họ tên">
+
+  <label>Ngày lập báo cáo:</label>
+  <input type="date" id="reportDate">
+
+  <label>Mô tả nội dung:</label>
+  <textarea id="description" rows="4"></textarea>
+
+  <label>Chèn ảnh vào báo cáo:</label>
+  <input type="file" accept="image/*" multiple onchange="previewImages(event)">
+  <div class="image-container" id="imageContainer"></div>
+
+  <label>Chèn bảng Excel (tải lên tệp .xlsx và hiển thị):</label>
+  <input type="file" accept=".xlsx" multiple onchange="handleExcelUpload(event)">
+  <div id="excel-table"></div>
+
+  <button onclick="generateReport()">📝 Tạo báo cáo</button>
+  <button onclick="window.print()">🖨️ In / Lưu PDF</button>
+
+  <div class="report-box" id="reportContent" contenteditable="true">
+    <!-- Nội dung báo cáo sẽ hiển thị tại đây và có thể chỉnh sửa -->
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script>
+    const descriptions = {
+      doanhthu: "Báo cáo doanh thu thể hiện các số liệu tài chính, hiệu quả kinh doanh theo tháng/quý/năm...",
+      phong: "Báo cáo phòng ban mô tả hiệu quả công việc, nhân sự, hoạt động nội bộ của từng bộ phận.",
+      dubao: "Dự báo doanh thu dựa trên dữ liệu lịch sử và các yếu tố ảnh hưởng đến xu hướng tăng trưởng.",
+      khachhang: "Báo cáo khách hàng thể hiện phân tích hành vi, nhóm khách hàng, độ hài lòng và tương tác."
+    };
+
+    function previewImages(event) {
+      const files = event.target.files;
+      const container = document.getElementById('imageContainer');
+      Array.from(files).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = function() {
+          const div = document.createElement('div');
+          div.className = 'image-item';
+          div.innerHTML = `<img src="${reader.result}"><button onclick="this.parentElement.remove()">×</button>`;
+          container.appendChild(div);
+        };
+        reader.readAsDataURL(file);
+      });
+    }
+
+    function handleExcelUpload(event) {
+      const files = event.target.files;
+      const tableContainer = document.getElementById('excel-table');
+      tableContainer.innerHTML = '';
+      Array.from(files).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const data = new Uint8Array(e.target.result);
+          const workbook = XLSX.read(data, { type: 'array' });
+          const sheetName = workbook.SheetNames[0];
+          const sheet = workbook.Sheets[sheetName];
+          const html = XLSX.utils.sheet_to_html(sheet);
+          const section = document.createElement('div');
+          section.innerHTML = html;
+          tableContainer.appendChild(section);
+        };
+        reader.readAsArrayBuffer(file);
+      });
+    }
+
+    function updateTemplate() {
+      const type = document.getElementById('reportType').value;
+      document.getElementById('description').value = descriptions[type] || '';
+    }
+
+    function generateReport() {
+      const type = document.getElementById('reportType').value;
+      const author = document.getElementById('authorName').value;
+      const date = document.getElementById('reportDate').value;
+      const desc = document.getElementById('description').value;
+      const imageDivs = document.getElementById('imageContainer').querySelectorAll('img');
+      const excelTables = document.getElementById('excel-table').querySelectorAll('table');
+
+      const typeTitle = {
+        doanhthu: "BÁO CÁO DOANH THU",
+        phong: "BÁO CÁO PHÒNG BAN",
+        dubao: "DỰ BÁO DOANH THU",
+        khachhang: "BÁO CÁO KHÁCH HÀNG"
+      };
+
+      let additionalContent = '';
+      if (type === 'doanhthu') additionalContent = '<ul><li>Doanh thu theo khu vực</li><li>So sánh với kỳ trước</li></ul>';
+      else if (type === 'phong') additionalContent = '<ul><li>Số lượng nhân sự</li><li>Hiệu suất công việc</li></ul>';
+      else if (type === 'dubao') additionalContent = '<ul><li>Dự báo tăng trưởng</li><li>Kịch bản thị trường</li></ul>';
+      else if (type === 'khachhang') additionalContent = '<ul><li>Phân loại khách hàng</li><li>Mức độ tương tác</li></ul>';
+
+      let imagesHtml = '';
+      imageDivs.forEach(img => {
+        imagesHtml += `<div style="margin-bottom:10px;"><img src="${img.src}" style="max-width: 500px;"></div>`;
+      });
+
+      let excelHtml = '';
+      excelTables.forEach(table => {
+        excelHtml += '<div>' + table.outerHTML + '</div>';
+      });
+
+      const html = `
+        <h2 contenteditable="true">${typeTitle[type]}</h2>
+        <p><strong>Người lập:</strong> <span contenteditable="true">${author}</span></p>
+        <p><strong>Ngày:</strong> <span contenteditable="true">${date}</span></p>
+        <p><strong>Mô tả:</strong> <span contenteditable="true">${desc}</span></p>
+        ${additionalContent}
+        ${imagesHtml}
+        ${excelHtml}
+      `;
+
+      document.getElementById('reportContent').innerHTML = html;
+    }
+
+    window.onload = updateTemplate;
+  </script>
+
+</body>
+</html>

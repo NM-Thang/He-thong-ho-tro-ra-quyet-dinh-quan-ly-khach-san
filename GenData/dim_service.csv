@@ -1,0 +1,26 @@
+service_key,serviceName,serviceType
+SVC001,In-room Dining,Room Service
+SVC002,Mini Bar,Room Service
+SVC003,Daily Cleaning,Room Service
+SVC004,Spa Treatment,Wellness
+SVC005,Massage Therapy,Wellness
+SVC006,Sauna,Wellness
+SVC007,Yoga Class,Wellness
+SVC008,Swimming Pool Access,Recreation
+SVC009,Fitness Center,Recreation
+SVC010,Tennis Court,Recreation
+SVC011,Breakfast Buffet,Food & Beverage
+SVC012,Restaurant Dining,Food & Beverage
+SVC013,Bar & Lounge,Food & Beverage
+SVC014,Conference Room,Business
+SVC015,Business Center,Business
+SVC016,Printing Services,Business
+SVC017,Airport Shuttle,Transportation
+SVC018,Car Rental,Transportation
+SVC019,Bicycle Rental,Transportation
+SVC020,Tour Booking,Concierge
+SVC021,Luggage Storage,Concierge
+SVC022,Currency Exchange,Concierge
+SVC023,Pet Service,Other
+SVC024,Laundry Service,Other
+SVC025,Babysitting,Other

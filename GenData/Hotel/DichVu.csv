@@ -1,0 +1,26 @@
+MaDichVu,TenDichVu,LoaiDichVu,DonGia,MoTa
+SVC001,Ăn uống trong phòng,Dịch vụ phòng,300000,"Set menu bữa sáng/tối, phục vụ 24/24."
+SVC002,Quầy bar mini,Dịch vụ phòng,120000,"Nước ngọt, bia, snack (tính theo món)."
+SVC003,Dọn phòng hàng ngày,Dịch vụ phòng,0,Đã bao gồm trong giá phòng.
+SVC004,Liệu trình Spa,Chăm sóc sức khỏe,1200000,Gói cơ bản 90 phút (massage body + mặt nạ).
+SVC005,Trị liệu massage,Chăm sóc sức khỏe,800000,Massage toàn thân 60 phút.
+SVC006,Xông hơi,Chăm sóc sức khỏe,300000,Sử dụng phòng xông hơi 1 lượt (tối đa 2 giờ).
+SVC007,Lớp Yoga,Chăm sóc sức khỏe,200000,"Lớp nhóm 60 phút, giá/buổi."
+SVC008,Sử dụng hồ bơi,Giải trí,0,Miễn phí cho khách lưu trú.
+SVC009,Trung tâm thể hình,Giải trí,0,"Mở cửa 6h-22h, miễn phí thiết bị."
+SVC010,Sân tennis,Giải trí,200000,"Thuê sân 1 giờ (bao gồm vợt, bóng)."
+SVC011,Buffet bữa sáng,Ẩm thực & Đồ uống,350000,"Buffet tự chọn, phục vụ 6h-10h."
+SVC012,Ăn uống tại nhà hàng,Ẩm thực & Đồ uống,500000,Set menu 3 món (khai vị + chính + tráng miệng).
+SVC013,Quầy bar & phòng thư giãn,Ẩm thực & Đồ uống,150000,Cocktail đặc biệt hoặc đồ uống không cồn.
+SVC014,Phòng hội nghị,Dịch vụ công việc,3000000,"Thuê 4 giờ, tối đa 20 người (bao gồm máy chiếu, nước uống)."
+SVC015,Trung tâm doanh nghiệp,Dịch vụ công việc,0,"Truy cập internet, máy in miễn phí."
+SVC016,Dịch vụ in ấn,Dịch vụ công việc,20000,In đen trắng A4/trang.
+SVC017,Xe đưa đón sân bay,Di chuyển,500000,"Một chiều (4 chỗ, hỗ trợ hành lý)."
+SVC018,Thuê ô tô,Di chuyển,2000000,"Thuê 8 giờ (xe 7 chỗ, tự lái)."
+SVC019,Thuê xe đạp,Di chuyển,100000,Thuê theo ngày (trả trước 17h).
+SVC020,Đặt tour du lịch,Dịch vụ lễ tân,0,"Tư vấn miễn phí, giá tour tính riêng theo yêu cầu."
+SVC021,Lưu trữ hành lý,Dịch vụ lễ tân,0,Giữ đồ tối đa 24h sau khi trả phòng.
+SVC022,Đổi tiền tệ,Dịch vụ lễ tân,0,"Miễn phí phí dịch vụ, áp dụng tỷ giá ngân hàng."
+SVC023,Dịch vụ thú cưng,Dịch vụ khác,300000,"Chăm sóc thú cưng/ngày (ăn uống, vệ sinh)."
+SVC024,Dịch vụ giặt ủi,Dịch vụ khác,100000,Giặt là 1kg đồ (trả trong 8 giờ).
+SVC025,Trông trẻ,Dịch vụ khác,250000,"Theo giờ (tối thiểu 2 giờ, có nhân viên nữ chuyên nghiệp)."
